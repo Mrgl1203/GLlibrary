@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PullRefreshRecyclerView">
+        <attr name="autoRefresh" format="boolean" />
+        <attr name="autoLoadMore" format="boolean" />
+        <attr name="gl_layoutManager">
+            <enum name="Linear" value="1" />
+            <enum name="Grid" value="2" />
+            <enum name="StaggeredGrid" value="3" />
+        </attr>
+        <attr name="gl_spanCount" format="integer" />
+        <attr name="gl_layoutOritation">
+            <enum name="HORIZONTAL" value="0" />
+            <enum name="VERTICAL" value="1" />
+        </attr>
+        <attr name="gl_reverseLayout" format="boolean"/>
+    </declare-styleable>
+</resources>

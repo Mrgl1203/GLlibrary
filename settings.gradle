@@ -1,0 +1,3 @@
+rootProject.name = "GlComponentLibrary"
+include ':app'
+include ':GLlibrary'
