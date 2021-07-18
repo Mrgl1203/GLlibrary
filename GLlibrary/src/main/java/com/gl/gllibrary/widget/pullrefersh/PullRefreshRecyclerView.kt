@@ -20,6 +20,9 @@ import com.scwang.smart.refresh.layout.api.RefreshLayout
 import com.scwang.smart.refresh.layout.listener.OnRefreshLoadMoreListener
 import kotlinx.android.synthetic.main.gl_pullrefresh_recyclerview.view.*
 
+/**
+ * 分页下拉刷新recyclerView
+ */
 class PullRefreshRecyclerView @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
 ) : ConstraintLayout(context, attrs, defStyleAttr), OnRefreshLoadMoreListener {
